@@ -1,0 +1,93 @@
+body {
+    background-image: url('https://i.ibb.co/fxcXjGS/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+    color: #fff;
+}
+
+.profile-card {
+    background-color: #343a40;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.profile-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.profile-card form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.profile-card form button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary {
+    width: 100%;
+    padding: 8px 20px;
+    min-width: 120px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #9f8d8d;
+    color: #000000;
+}
+
+.custom-img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    position: relative;
+}
+
+.marca-agua {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.swal2-popup {
+    background-color: #010100; /* Cambia el color de fondo de la alerta */
+    color: #EBEBE7; /* Cambia el color del texto */
+}
+.swal2-title {
+    color: #AFED09; /* Cambia el color del título */
+}
+.swal2-content {
+    color: #AFED09; /* Cambia el color del texto del contenido */
+}
+.swal2-confirm:hover {
+    background-color: #1A65D9; /* Cambia el color de fondo del botón de confirmación al pasar el mouse */
+}

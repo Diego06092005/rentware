@@ -1,0 +1,163 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw; 
+    background-image: url('https://i.ibb.co/r5Lj5Sp/image.png');
+    color: white; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    }   
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    }
+        .nav-link.active {
+            color: white; 
+        }
+        .nav-link:hover {
+            color: white; 
+        }
+     .tabla-contratos {
+        width: 100%;
+        border-collapse: separate; 
+        border-spacing: 0;
+        background-color: #1a1a1a; 
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        box-shadow: 0 2px 15px rgba(0,0,0,0.5); 
+        border-radius: 10px; 
+        overflow: hidden; 
+    }
+    .pagination {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    display: block;
+    padding: 5px 10px;
+    margin: 0 3px;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+.pagination .current {
+    background-color: #0056b3;
+    
+}
+    .tabla-contratos th, .tabla-contratos td {
+        padding: 10px 20px;
+        border-bottom: 1px solid #333; 
+    }
+    .tabla-contratos th {
+        background-color: #333;
+        font-size: 16px; 
+    }
+    .tabla-contratos td {
+        font-size: 14px; 
+    }
+
+    .tabla-contratos a {
+        color: #4a90e2; 
+        text-decoration: none;
+        transition: color 0.3s; 
+    }
+    .tabla-contratos a:hover {
+        color: #d1eaff; 
+    }
+
+    .tabla-contratos button {
+        background-color: #e74c3c; 
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px; 
+        transition: background-color 0.3s;
+        cursor: pointer;
+    }
+    .tabla-contratos button:hover {
+        background-color: #c0392b;
+    }
+    .container {
+    max-width: 80%; 
+    margin: auto; 
+    background-color: black;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    }
+    h2 {
+    color: white; 
+    margin-bottom: 20px; 
+    }
+    .table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+    }
+    .table th, .table td {
+    text-align: left;
+    padding: 12px; 
+    border-bottom: 1px solid #ccc; 
+    }
+    .table th {
+    background-color: #007bff; 
+    color: white; 
+    }
+    .table tr:hover {
+    background-color: gray; 
+    }
+    .table a {
+    color: #007bff; 
+    text-decoration: none; 
+    }
+    .table a:hover {
+    text-decoration: underline; 
+    }
+    .nav-item{
+            margin-left: 10px; margin-right: 10px;
+        }
+    .navbar{
+        background-color: black;
+    }
+  .navbar-brand.selected {
+    color: black; /* Texto en color negro */
+    background-color: red; /* Fondo en color rojo */
+    padding: 5px 10px; /* Añade espaciado alrededor del texto */
+    border-radius: 5px; /* Redondea las esquinas del cuadro */
+    transition: all 0.3s ease; /* Transición suave de 0.3 segundos */
+ }
+
+ .navbar-brand.selected:hover {
+    /* Estilos al pasar el ratón por encima */
+    background-color: darkred; /* Cambio de color de fondo */
+    color: white; /* Cambio de color del texto */
+ }
+ /* Estilos específicos para el menú desplegable del perfil de usuario */
+.navbar-nav .dropdown-menu {
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+}
+
+.navbar-nav .dropdown-menu a {
+  color: white; /* Texto de los enlaces blanco */
+}
+
+.navbar-nav .dropdown-menu a:hover {
+  background-color: #555; /* Fondo de los enlaces al hacer hover */
+  color: #ddd; /* Color del texto al hacer hover */
+}

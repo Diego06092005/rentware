@@ -1,0 +1,48 @@
+.file-upload-input {
+    display: none;
+  }
+  .menu-icon {
+  cursor: pointer;
+  color:#08d847;
+ }
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Esto asegura que los elementos se separen */
+ }
+ .vaciar-chat {
+  position: relative; /* Nuevo */
+  margin-left: auto; /* Esto empuja el botón hacia la derecha */
+ }
+ /* CONTENEDOR */
+ .menu-content {
+  position: absolute;
+  top: 100%; /* Cambio para asegurar que siempre aparezca justo debajo del ícono */
+  right: 20px; /* Ajuste para alinear el menú con el lado derecho del ícono */
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px 5px 20px 20px; /* radios diferentes para las esquinas */
+  background-color: darkgray; /* Añadir color de fondo para consistencia */
+ }
+ /* OPCIONES DEL CONTENEDOR */
+ .menu-item {
+  display: block; /* Esto hace que cada botón ocupe toda la línea */
+  width: 100%; /* Hace que cada botón se expanda al ancho completo del contenedor */
+  border-radius: 20px 1px 20px 20px; 
+  border: 1px solid #ccc;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: BLACK;
+  color:white;
+  outline: none;
+  margin-bottom: 5px; /* Espacio entre los botones */
+ }
+ .menu-item:hover {
+  background-color: #08d847;
+  color:black;
+ }
+ .fa-camera:hover{
+  color:#000;
+ }

@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://i.ibb.co/zmdGTCt/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+.swal2-popup {
+    background-color: #010100;
+    color: #EBEBE7; 
+}
+.swal2-title {
+    color: #AFED09;
+}
+.swal2-content {
+    color: #AFED09;
+}
+.swal2-confirm:hover {
+    background-color: #1A65D9; 
+}

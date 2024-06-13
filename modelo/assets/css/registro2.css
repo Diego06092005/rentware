@@ -1,0 +1,184 @@
+body {
+    background-image: url('https://i.ibb.co/5RcJwpZ/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin: 0; 
+    padding: 0;
+    height: 100vh; 
+    min-height: 100vh;
+  }
+
+ label[for="imagen"] {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f70a0a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #292424;
+    color: aliceblue;
+    cursor: pointer; 
+}
+
+
+input[type="file"]:hover {
+    border-color: #33ff00;
+}
+
+input[type="file"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgb(241, 240, 240);
+}
+
+label[for="fecha_nacimiento"] {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[name="fecha_nacimiento"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ee0909;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #272323;
+    color: rgb(180, 172, 172);
+}
+
+input[name="fecha_nacimiento"]:hover {
+    border-color: #5eff00;
+}
+
+input[name="fecha_nacimiento"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(237, 237, 238, 0.5);
+}
+
+label[for="id_cargo"] {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select[name="id_cargo"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f70a0a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #292424;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+select[name="id_cargo"]:hover {
+    border-color: #33ff00;
+}
+
+select[name="id_cargo"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgb(241, 240, 240);
+}
+    
+.volver-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .form-container {
+        width: 300px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7);
+        margin: 10px;
+    }
+
+    .logo-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        max-width: 60%;
+        height: auto;
+        transition: transform 0.3s;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+    }
+
+    h1 {
+        color: #FF0000;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: calc(100% - 24px);
+        padding: 12px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 3px;
+        background-color: #444;
+        color: #FF0000;
+    }
+
+    input[type="submit"] {
+        background-color: #FF0000;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #00FF00;
+        color: rgb(0, 0, 0);
+        transform: scale(1.05);
+    }
+
+    p {
+        color: aliceblue;
+        margin: 5px 0;
+    }
+
+    @media (max-width: 600px) {
+        .form-container {
+            width: 80%; 
+        }
+    }

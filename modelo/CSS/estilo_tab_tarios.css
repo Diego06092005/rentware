@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    color: gray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('rent.png'); 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+img {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 90px;
+    height: 90px;
+    animation: neonGlow 1s infinite alternate;
+}
+
+h1 {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 64px;
+    letter-spacing: 7px;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    animation: neonGlow 1s infinite alternate;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: black;
+    color: whitesmoke;
+    position:relative;
+    top: 30px;
+    left: 280px;
+    bottom: 5px;
+    animation: neonGlow 1s infinite alternate;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+table, th, td {
+    border: 1px solid gray;
+    background-color: rgb(3, 8, 24);
+}
+
+th {
+    font-size: 20px;
+    color: greenyellow;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    background-color: rgb(1, 4, 15);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    padding: 5px 10px;
+}
+
+.btn {
+    background-color: rgb(1, 4, 15);
+    color: red;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-right: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    top: 2px;
+    left: 10px;
+    animation: neonGlow 1s infinite alternate;
+}
+
+.btn:hover {
+    background-color: rgb(9, 13, 57);
+    color: white;
+    cursor: progress;
+    border: 1px solid white;
+    animation: neonGlow 1s infinite alternate;
+}
+
+.agr {
+    background-color: rgb(2, 6, 20);
+    color: yellow;
+    border: 1px solid yellow;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.agr:hover {
+    background-color: rgb(5, 8, 46);
+    color: white;
+    cursor: pointer;
+    border: 1px solid green;
+    animation: neonGlow 1s infinite alternate;
+}
+
+@keyframes neonGlow {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 0, 0, 0.9), 0 0 30px rgba(255, 0, 0, 0.9);
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.5), 0 0 30px rgba(255, 0, 0, 0.5);
+    }
+}

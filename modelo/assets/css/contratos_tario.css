@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+   }
+body {
+    background-image: url('https://i.ibb.co/r5Lj5Sp/image.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #f8f9fa;
+padding-top: 50px;
+min-height: 100vh;
+    padding-top: 20px;
+}
+.container, .info-usuario, .tabla-servicios {
+   
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.info-usuario, .tabla-servicios {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+.tabla-servicios .table {
+    color: #000;
+    border-radius:5px;
+}
+.tabla-servicios th, .tabla-servicios td {
+    color: #fff;
+}
+.nav-link:hover {
+    color: red; /* Color de texto al pasar el mouse */
+}
+.nav-item{
+    margin-left: 10px; margin-right: 10px;
+}
+/* Estilos específicos para el menú desplegable del perfil de usuario */
+.navbar-nav .dropdown-menu {
+background-color: black; /* Fondo negro */
+color: white; /* Texto blanco */
+}
+.navbar-nav .dropdown-menu a {
+color: white; /* Texto de los enlaces blanco */
+}
+.navbar-nav .dropdown-menu a:hover {
+background-color: #555; /* Fondo de los enlaces al hacer hover */
+color: #ddd; /* Color del texto al hacer hover */
+}
+.table-responsive{
+border-radius: 10px;
+}
+.navbar{
+background-color:#000;
+}
+.pagination {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    display: block;
+    padding: 5px 10px;
+    margin: 0 3px;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+.pagination .current {
+    background-color: #0056b3;
+   
+}

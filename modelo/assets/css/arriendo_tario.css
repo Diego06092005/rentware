@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+   }
+   .nav-link:hover {
+              color: red; 
+          }
+          .nav-item{
+              margin-left: 10px; margin-right: 10px;
+          }
+  .navbar-nav .dropdown-menu {
+    background-color: black; 
+    color: white; 
+  }
+  
+  .navbar-nav .dropdown-menu a {
+    color: white;
+  }
+  
+  .navbar-nav .dropdown-menu a:hover {
+    background-color: #555; 
+    color: #ddd; 
+  }
+  .table-responsive{
+          border-radius: 10px;
+      }
+
+
+.navbar{
+    background-color:#000;
+  }
+          body {
+              background-image: url('https://i.ibb.co/2K6sBPY/image.png');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-color: #f8f9fa;
+              padding-top: 50px;
+              min-height: 100vh;
+          }
+          .container, .info-usuario, .tabla-servicios {
+             
+             border-radius: 10px;
+             padding: 20px;
+             margin-bottom: 20px;
+         }
+         .info-usuario, .tabla-servicios {
+             background-color: rgba(0, 0, 0, 0.75);
+             color: white;
+         }
+         .tabla-servicios .table {
+             color: #000;
+             border-radius:5px;
+         }
+         .tabla-servicios th, .tabla-servicios td {
+             color: #fff;
+         }
+          .info-usuario p {
+              color: #ddd;
+              margin-bottom: 5px;
+          }   
+          .info-usuario input[type='text'], 
+          .info-usuario input[type='email'], 
+          .info-usuario input[type='tel'] {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px; 
+              border: 1px solid #ccc; 
+              border-radius: 5px; 
+              background-color: transparent;
+              color: white; 
+          }  

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Login</title>
+    <style>
+      body {
+        background-image: url("../vista/IMG/fondos10.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .login-container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #1f2120;
+        color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      "
+    >
+      <h2 style="color: #1f9941; text-align: center; margin-bottom: 30px">
+        <i
+          class="fas fa-check-circle animate__animated animate__tada animate__infinite"
+          style="color: #1f9941"
+        ></i>
+        Correo Enviado
+      </h2>
+      <p style="text-align: center">
+        El correo se ha enviado correctamente. Entra a tu correo electrónico y
+        verifica nuestro mensaje.
+      </p>
+      <div style="text-align: center; margin-top: 20px">
+        <button
+          style="
+            background-color: #1f9941;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          "
+          onclick="window.location.href='../index.php#about';"
+        >
+          Regresar
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

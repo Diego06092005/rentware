@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://i.ibb.co/gdPfHXB/Fondo12.jpg');
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;     
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover {
+    background-color: #005f73;
+}
+h1{
+    text-align: center;
+}
+p{
+    color:white;
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+}
+.swal2-popup {
+    background-color: #010100; /* Cambia el color de fondo de la alerta */
+    color: #EBEBE7; /* Cambia el color del texto */
+}
+.swal2-title {
+    color: #AFED09; /* Cambia el color del título */
+}
+.swal2-content {
+    color: #AFED09; /* Cambia el color del texto del contenido */
+}
+.swal2-confirm:hover {
+    background-color: #1A65D9; /* Cambia el color de fondo del botón de confirmación al pasar el mouse */
+}

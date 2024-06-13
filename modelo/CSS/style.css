@@ -1,0 +1,80 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-image: url('rent.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    background-color: #333;
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(10, 218, 23);
+}
+
+.circle-container {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle-container a {
+    text-decoration: none;
+}
+
+.circle-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}

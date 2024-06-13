@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    animation: neon-glow 1s ease-in-out infinite alternate;
+    background-image: url('https://i.ibb.co/2ZnBGp3/image.png'); 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+h1 {
+    color: red;
+}
+
+.form-container {
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    animation: neon-glow 1s ease-in-out infinite alternate;
+}
+
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #444;
+    color: #fff;
+}
+
+.form-container input[type="submit"] {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    animation: neon-glow 1s ease-in-out infinite alternate;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #00FF00;
+}
+
+.volver-link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.volver-link:hover {
+    text-decoration: underline;
+}
+
+@keyframes neon-glow {
+    0% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 20px #ff0000;
+        text-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    }
+    100% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #ff0000, 0 0 30px #ff0000;
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    }
+}
+.circle-container {
+        width: 60px; 
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 50%;
+        overflow: hidden; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        backdrop-filter: blur(1px);
+    }
+
+    .circle-container a {
+        text-decoration: none;
+    }
+
+    .circle-container img {
+        max-width: 100%; 
+        max-height: 100%; 
+        border-radius: 50%;
+    }

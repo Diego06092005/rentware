@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://i.ibb.co/bFQKcpC/rent7.jpg');
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-size: cover; /* Ajuste para cubrir completamente */
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajuste la altura del cuerpo al 100% de la altura de la ventana */
+}
+
+    .container {
+        max-width: 650px;
+    }
+    .btn-icon {
+        border: none;
+        background: none;
+        color: #007bff;
+    }
+    .btn-delete {
+    padding: 7px 10px;
+    color: white;
+    background-color: #ff6347; /* Un rojo tomate */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-delete:hover {
+    background-color: #e53e3e; /* Un rojo más oscuro al pasar el mouse */
+}
+.btn-delete i {
+    margin-right: 5px; /* Espacio entre el icono y el texto (si agregas texto más tarde) */
+}
+/* Estilos adicionales para enlaces de edición y agregar nuevo */
+.btn-edit, a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+/* Estilos para personalizar la barra de búsqueda */
+.dataTables_filter {
+float: right;
+margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 20px; /* Aumento del margen inferior */
+}
+.dataTables_filter label {
+display: inline-flex; /* Muestra los elementos en línea y centrados */
+align-items: center; /* Alinea verticalmente el texto con el campo de búsqueda */
+}
+.dataTables_filter input {
+margin-left: 5px; /* Espacio entre el texto y el campo de búsqueda */
+width: auto; /* Ajuste del ancho automático según el contenido */
+}
+/* Sección para el selector de registros */
+.dataTables_length {
+float: left;
+margin-top: 10px;
+margin-left: 15px;
+margin-bottom: 20px; /* Aumento del margen inferior */
+}
+.dataTables_length label {
+display: flex; /* Muestra los elementos en línea y centrados */
+align-items: center; /* Alinea verticalmente el texto con el campo de búsqueda */
+}
+.dataTables_length select {
+margin-left: 5px; /* Espacio entre el texto y el selector */
+}
+.btn i {
+margin-right: 5px; /* Espacio entre el icono y el texto o entre iconos */
+}

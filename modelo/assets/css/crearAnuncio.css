@@ -1,0 +1,106 @@
+body {
+    background-image: url('https://i.ibb.co/nDddmZm/fondos10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.nav-item{
+    margin-left: 10px; margin-right: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}  .navbar{
+background-color: black;
+font-family: 'Poppins', sans-serif;
+}
+.invisible {
+display: none;
+}
+.nav-link.active {
+    color: white; /* Color de texto para el enlace activo */
+}
+.nav-link:hover {
+    color: white; /* Color de texto al pasar el mouse */
+}
+.navbar-brand.selected {
+color: black; /* Texto en color negro */
+background-color: red; /* Fondo en color rojo */
+padding: 5px 10px; /* Añade espaciado alrededor del texto */
+border-radius: 5px; /* Redondea las esquinas del cuadro */
+transition: all 0.3s ease; /* Transición suave de 0.3 segundos */
+}
+
+.navbar-brand.selected:hover {
+/* Estilos al pasar el ratón por encima */
+background-color: darkred; /* Cambio de color de fondo */
+color: white; /* Cambio de color del texto */
+}
+/* Estilos específicos para el menú desplegable del perfil de usuario */
+.navbar-nav .dropdown-menu {
+background-color: black; /* Fondo negro */
+color: white; /* Texto blanco */
+}
+
+.navbar-nav .dropdown-menu a {
+color: white; /* Texto de los enlaces blanco */
+}
+
+.navbar-nav .dropdown-menu a:hover {
+background-color: #555; /* Fondo de los enlaces al hacer hover */
+color: #ddd; /* Color del texto al hacer hover */
+}
+
+.table-responsive{
+border-radius: 10px;
+}
+/* Estilos para botones de paginación */
+.pagination-btn {
+padding: 10px 20px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+background-image: linear-gradient(45deg, #6a11cb, #2575fc);
+color: white;
+font-weight: bold;
+cursor: pointer;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pagination-btn:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pagination-btn:active {
+transform: translateY(1px);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Desactivar botones cuando no hay más páginas */
+.pagination-btn.disabled {
+background-image: linear-gradient(45deg, #ccc, #e7e7e7);
+cursor: not-allowed;
+}
+/* Estilos para el contenedor de paginación */
+#pagination {
+display: flex;
+justify-content: center; /* Centra los botones en el contenedor */
+align-items: center; /* Alinea verticalmente */
+padding: 20px;
+}
+
+/* Estilo para el número de página actual */
+#currentPage {
+margin: 0 10px; /* Espacio entre botones y número de página */
+color: white; /* Color del texto del número de página */
+font-size: 16px; /* Tamaño del texto */
+}

@@ -1,0 +1,470 @@
+body{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.principal{
+    width:100% ;
+    max-width: 1650px;
+    margin: 6% auto;
+    display: flex;
+    align-items: stretch;
+
+    position: relative;
+    border-radius: 10px;
+}
+.login,
+.singup{
+    width: 50%;
+    padding: 130px 30px;
+    text-align: center;
+}
+.singup{
+    background-image: url('https://i.ibb.co/DDH66Bf/moon.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+  }
+  .singup::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.507); /* Ajusta la opacidad del negro según sea necesario */
+    border-radius: 5px;
+    z-index: 1; /* Esto asegura que el contenido del formulario esté sobre el efecto de desenfoque */ 
+}
+.singup form {
+    position: relative;
+    z-index: 2; /* Esto asegura que el formulario esté sobre el efecto de desenfoque */
+  }
+    .login {
+        background-image: url('https://i.ibb.co/zrYbgKt/edificio.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+
+      }  
+      .login::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.582); /* Ajusta la opacidad del negro según sea necesario */
+        border-radius: 5px;
+        z-index: 1;
+      }
+      .login form {
+        position: relative;
+        z-index: 2; /* Esto asegura que el formulario esté sobre el efecto de desenfoque */
+      }  
+      .logo-container {
+        text-align: center;
+        margin-bottom: 3px;
+      }
+      .logo {
+        transition: transform 0.3s ease; /* Suaviza la transición */
+        transform: scale(0.5); /* Hace el logo aún más pequeño inicialmente */
+      }
+      .logo:hover {
+        transform: scale(0.55); /* Aumenta el tamaño del logo al pasar el mouse, pero sigue siendo más pequeño que el original */
+      }
+button[type="submit"] {
+background-color: #007bff; /* Color de fondo del botón */
+color: white; /* Color de texto del botón */
+border: none; /* Elimina el borde del botón */
+cursor: pointer; /* Cambia el cursor a un puntero */
+}
+button[type="submit"]:hover {
+background-color: #39b300; /* Oscurece el botón al pasar el mouse */
+}
+form{
+margin-top: 40px;
+}
+h2{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: bold; /* Roboto se importa con font-weight: 700 que corresponde a bold */
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Añade esta línea */
+}
+form input{
+    width: 70%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 30px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    border-radius: 10px;
+}
+form button{
+    padding: 12px 40px;
+    background: rgb(226, 30, 30) ;
+    color: #fff;
+    border: transparent;
+    border-radius: 10px;
+}
+/* img del cuadro que cambia */
+.animacion{
+    position: absolute;
+    z-index: 9;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://i.ibb.co/2yjgHh5/ciudad.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    right: 0;
+    top: -50px;
+    padding: 50px 0;
+    text-align: center;
+    transition: 1s;  
+    border-radius: 10px; 
+  
+}
+.register {
+    display: none;
+  
+}
+.animacion.entrar{
+    display: none ;
+}
+.animacion.right .entrar{
+    display: block;
+}
+.animacion.left .register{
+    display: none;
+}
+.animacion.left{
+    right: 50%;
+}
+.animacion h2{
+    color: #fff;
+    margin-top:120px;
+}
+.animacion p{
+    color:#fff;
+    padding: 10px 50px;
+}
+.animacion a{
+    background: #fff;
+    color: rgb(40, 61, 61);
+    padding: 14px 30px;
+    border: transparent;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease;
+   }
+   .preloader img {
+    width: 200px; 
+    height: 200px;
+   }
+   .footer .item {
+    height: 200px; /* Tamaño constante de altura */
+    border: 2px solid transparent;
+    border-radius: 20px; /* Borde sólido de 2px y color gris */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total del elemento */
+    transition: border-color 0.3s ease; /* Transición suave para el cambio de color de borde */
+   }
+   .footer .item:hover {
+    border-color: #f70a0a; /* Cambia el color del borde al pasar el mouse */
+   }
+   body {
+    background-image: url('');
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+   }
+    body.loaded {
+    opacity: 1;
+   }
+  #mensaje-error {
+      display: none;
+      margin: 20px 0;
+      padding: 10px;
+      background-color: #ffdddd;
+      border-left: 6px solid #f44336;
+      border-radius: 10px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    #contraseña {
+      font-size: 15px; /* Tamaño de la fuente */
+      width: 350px; /* Ancho del campo de entrada */
+      padding-right: 1px; /* Espaciado derecho */
+    }
+    #usuario{
+      font-size: 15px; /* Tamaño de la fuente */
+      width: 350px; /* Ancho del campo de entrada */
+      padding-right: 1px; /* Espaciado derecho */
+    }
+    .containerimg {
+    position: relative; /* Establece un contexto de posicionamiento */
+    display: inline-block; /* Hace que el contenedor se ajuste al contenido */
+   }
+  
+   .containerimg input[type="file"] {
+    opacity: 0; /* Hace el input invisible */
+    width: 100%; /* Se extiende a todo el ancho del contenedor */
+    height: 100%; /* Se extiende a toda la altura del contenedor */
+    position: absolute; /* Posiciona sobre el pseudo-elemento */
+    cursor: pointer; /* Mantiene el cursor como puntero para indicar acción */
+    top: 0; /* Alinea al top del contenedor */
+    left: 0; /* Alinea a la izquierda del contenedor */
+   }
+  
+   .footer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  
+    .item {
+  
+      padding: 20px;
+      text-align: center;
+      border: 1px solid transparent;
+      border-radius: 2%;
+      transition: border-color 0.3s ease;
+      height: 100px; /* Altura fija para los contenedores */
+    }
+  
+    .item:hover {
+      border-color: #333;
+      cursor: pointer;
+    }
+  
+    .full-row {
+      grid-column: 1 / span 3;
+    }
+  
+    /* Regla para deshabilitar el hover en el cuarto contenedor */
+    .full-row:hover {
+      cursor: default;
+      border-color: transparent;
+    }
+  
+    @media (max-width: 768px) {
+      .footer {
+        grid-template-columns: 1fr;
+      }
+    }
+   .containerimg::before {
+    content: 'Sube tu Imagen de perfíl'; /* Texto visible para los usuarios */
+    display: flex; /* Cambiado a flex para centrar ícono y texto */
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    width: 370px; /* Iguala el ancho con los otros campos */
+    padding: 5px; /* Mantiene el padding para la altura */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #f70a0a; /* Estilo del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto */
+    color: white;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho final */
+    background-image: url('https://cdn-icons-png.flaticon.com/128/2550/2550370.png'); /* Añade el icono como fondo */
+    background-repeat: no-repeat; /* Evita que el icono se repita */
+    background-position: 20px center; /* Posiciona el icono a la izquierda, centrado verticalmente */
+    padding-left: 15px; /* Asegúrate de ajustar este valor según el tamaño de tu icono para evitar solapamientos */
+    background-size: 30px 30px; /* Cambia el tamaño del icono a 24x24 píxeles */
+   }
+   .file-label {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f70a0a; /* Color de fondo */
+      color: white; /* Color del texto */
+      border-radius: 10px; /* Bordes redondeados */
+      cursor: pointer; /* Cambia el cursor */
+      transition: background-color 0.3s ease; /* Suaviza la transición de color */
+   }
+   .file-label:hover {
+      background-color: #cc0909; /* Color al pasar el ratón */
+   }
+   #file-chosen {
+      display: block; /* Asegura que se muestre en una nueva línea */
+      margin-top: 10px; /* Espacio arriba */
+      color: #555; /* Color del texto */
+  }
+   .rectangulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con transparencia */
+    padding: 20px 40px; /* Espaciado interno */
+    border-radius: 10px; 
+   }
+   #custom-button {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   } 
+   #custom-button:hover {
+    border: 2px solid green;
+    background-color: #39b300; /* Oscurece el botón al pasar el mouse */
+    color: white;
+   }
+   label[for="id_cargo"] {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+   }
+  select[name="id_cargo"] {
+    width: 78%;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 2px solid #f70a0a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+   }
+   select[name="id_cargo"]:hover {
+    border-color: #007bff;
+   }
+   select[name="id_cargo"]:focus {
+    outline: none;
+    border-color: greenyellow;
+    box-shadow: 0 0 5px rgb(241, 240, 240);
+   }
+   h1 {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+   p {
+    color: rgb(255, 240, 240);
+    margin: 5px 0;
+   }
+  
+   #rounded-btn {
+    background-color:red;
+    color:white;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    font-size: 25px;
+    border-radius: 30%; 
+    width:30px;
+    z-index: 1000; /* Asegúrate de que este número sea más alto que el z-index de otros elementos */
+   }
+   .center-element {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100%; /* Ajusta la altura según tus necesidades */
+   }
+   .my-95 {
+    margin-top: 5rem !important;
+   }
+   .py-95 {
+    padding-bottom: 5rem !important;
+   }
+   .col-sm-95 {
+    margin: 0 auto; /* Centra horizontalmente el div dentro de su contenedor */
+   }
+   a {
+    transition: color 0.5s ease-in-out;
+    color: black; /* Color inicial */
+   }
+   a:hover {
+    color: rgba(30, 116, 5, 0.61); /* Cambia a este color al pasar el mouse */
+   }
+   /* Animación para mover el enlace */
+   a {
+   display: inline-block;
+   transition: transform 0.5s ease;
+   }
+   a:hover {
+   transform: translateX(10px); /* Mueve el enlace 5px a la derecha */
+   }
+   .logorent{
+   width: 200px;
+   height: 200;
+   }
+   .logorent {
+    width: 100px;
+    height: 100px;
+   }
+      .custom-select-container {
+          position: relative;
+          border-radius: 0.5rem;
+          overflow: hidden;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          width: 70%; /* Ajusta el ancho aquí */
+          margin-left: auto; /* Centrar el contenedor */
+          margin-right: auto; /* Centrar el contenedor */
+      }
+      .custom-select-container select {
+          display: block;
+          width: 100%;
+          padding: 0.5rem 0.75rem;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: #495057;
+          background-color: #fff;
+          border: none;
+          border-radius: 0;
+          transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+          appearance: none; /* Elimina la flecha predeterminada del select */
+      }
+      .custom-select-container select:focus {
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          outline: 0;
+          transform: scale(1.02);
+      }
+      .custom-select-container::after {
+          content: '\25BC'; /* Flecha hacia abajo */
+          position: absolute;
+          top: 0;
+          right: 15px;
+          bottom: 0;
+          align-items: center;
+          display: flex;
+          pointer-events: none;
+          color: #495057;
+          font-size: 0.8rem;
+          transition: transform 0.3s ease-in-out;
+      }
+      .custom-select-container select:focus + ::after {
+          transform: scale(1.1);
+      }

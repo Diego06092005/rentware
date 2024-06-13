@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://i.ibb.co/yps6ktG/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.mensajes-no-leidos {
+    margin-left: 10px;
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.nav-item.dropdown.show .nav-link {
+    color: #ffffff;
+}
+
+.nav-item.dropdown:hover .nav-link {
+    color: #ffffff;
+}
+
+.image-selector {
+    position: relative;
+    display: inline-block;
+}
+
+#profile-img {
+    width: 300px;
+    height: 120px;
+    border: 2px solid #333;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+#profile-img:hover {
+    border-color: #FF0000;
+}

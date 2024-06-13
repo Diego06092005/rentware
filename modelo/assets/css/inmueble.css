@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-link.active {
+    color: white; 
+}
+.nav-link:hover {
+    color: white; 
+}
+body {
+    background-image: url('https://i.ibb.co/KNPbRdn/image.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+    }
+
+   .nav-item{
+            margin-left: 10px; margin-right: 10px;
+        }
+   .action-buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+  .navbar{
+        background-color: black;
+    }
+  .navbar-brand.selected {
+    color: black;
+    background-color: red;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: all 0.3s ease;
+ }
+
+ .navbar-brand.selected:hover {
+    background-color: darkred; 
+    color: white; 
+ }
+.navbar-nav .dropdown-menu {
+  background-color: black; 
+  color: white;
+}
+
+.navbar-nav .dropdown-menu a {
+  color: white;
+}
+
+.navbar-nav .dropdown-menu a:hover {
+  background-color: #555;
+  color: #ddd;
+}
+
+
+.pagination {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    display: block;
+    padding: 5px 10px;
+    margin: 0 3px;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+.pagination .current {
+    background-color: #0056b3;
+   
+}
+.tabla-inmueble {
+        width: 100%;
+        border-collapse: separate; 
+        border-spacing: 0;
+        background-color: #1a1a1a; 
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        box-shadow: 0 20px 15px rgba(0,0,0,0.5); 
+        border-radius: 10px; 
+        overflow: hidden; 
+    }
+    .tabla-inmueble th, .tabla-inmueble td {
+        padding: 10px 20px;
+        border-bottom: 1px solid #333; 
+    }
+    .tabla-inmueble th {
+        background-color: #333;
+        font-size: 16px; 
+    }
+    .tabla-inmueble td {
+        font-size: 14px; 
+    }
+
+    .tabla-inmueble a {
+        text-decoration: none;
+        transition: color 0.3s; 
+    }
+    .tabla-inmueble a:hover {
+        color: #4a90e2; 
+    }
+
+    .tabla-inmueble button {
+        background-color: #e74c3c; 
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px; 
+        transition: background-color 0.3s;
+        cursor: pointer;
+    }
+    .tabla-inmueble button:hover {
+        color: #D16E6D;
+    }

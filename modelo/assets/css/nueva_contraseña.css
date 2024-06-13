@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://i.ibb.co/KNPbRdn/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  
+  #formulario {
+    background-color: #212529;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .form-control {
+    background-color: #343a40;
+    color: #fff;
+    border-color: #6c757d;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+  }
+  
+  .alert {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+  }
+  
+  .alert-success {
+    background-color: #28a745;
+    color: #fff;
+    border-color: #28a745;
+  }
+  
+  #togglePassword {
+    background-color: #6c757d;
+    color: #fff;
+    border-color: #6c757d;
+  }
+  
+  #togglePassword:hover {
+    background-color: #5a6268;
+    color: #fff;
+    border-color: #5a6268;
+  }
+  

@@ -1,0 +1,35 @@
+.text-red{
+    color:white;
+    font-size: 40px;
+    text-align:center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+}
+.info-arrendatario {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    color: white;
+    margin-bottom: 20px;
+}
+.table-dark {
+    background-color: #343a40;
+    color: white;
+    border-radius:5px;
+}
+body {
+    background-image: url('https://i.ibb.co/KhGJG4n/fondos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    min-height: 100vh;
+}
